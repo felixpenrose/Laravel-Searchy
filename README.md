@@ -14,6 +14,32 @@ https://github.com/TomLingham/Laravel-Searchy/tree/1.0
 
 ## Installation
 
+### Install as a VCS
+
+Add a `repositories` key in your `composer.json` file
+
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/Gap-360/Laravel-Searchy"
+    }
+],
+```
+
+Then add the following into the `require` section
+
+```json
+"require": {
+  "gap-360/laravel-searchy": "dev-master",
+}
+```
+
+Then run `composer update` to pull in the new package
+
+
+### Parent repo installation
+
 Add `"tom-lingham/searchy" : "2.*"` to your composer.json file under `require`:
 
 ```json
