@@ -1,5 +1,5 @@
 {
-    "name": "felixpenrose/searchy",
+    "name": "gap-360/laravel-searchy",
     "description": "Laravel Searchy makes user driven searching easy with fuzzy search, basic string matching, Levenshtein Distance and more.",
     "keywords": ["laravel","search","fuzzy"],
     "license": "MIT",
@@ -10,7 +10,7 @@
         },
         {
             "name": "Felix Penrose",
-            "email": "felixpenrose@gmail.com"
+            "email": "felix.penrose@gap360.com"
         }
     ],
     "require": {
